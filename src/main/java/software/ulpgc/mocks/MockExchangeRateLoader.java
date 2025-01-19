@@ -1,8 +1,8 @@
-package mocks;
+package software.ulpgc.mocks;
 
-import model.Currency;
-import model.ExchangeRate;
-import model.ExchangeRateLoader;
+import software.ulpgc.model.Currency;
+import software.ulpgc.model.ExchangeRate;
+import software.ulpgc.model.ExchangeRateLoader;
 
 import java.time.LocalDate;
 

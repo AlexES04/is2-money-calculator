@@ -1,12 +1,12 @@
-package control;
+package software.ulpgc.control;
 
-import model.Currency;
-import model.ExchangeRate;
-import model.ExchangeRateLoader;
-import model.Money;
-import view.CurrencyDialog;
-import view.MoneyDialog;
-import view.MoneyDisplay;
+import software.ulpgc.model.Currency;
+import software.ulpgc.model.ExchangeRate;
+import software.ulpgc.model.ExchangeRateLoader;
+import software.ulpgc.model.Money;
+import software.ulpgc.view.CurrencyDialog;
+import software.ulpgc.view.MoneyDialog;
+import software.ulpgc.view.MoneyDisplay;
 
 public class ExchangeMoneyCommand implements Command {
     private final MoneyDialog moneyDialog;

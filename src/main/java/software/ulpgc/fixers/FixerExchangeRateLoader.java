@@ -1,8 +1,8 @@
-package fixers;
+package software.ulpgc.fixers;
 
-import model.Currency;
-import model.ExchangeRate;
-import model.ExchangeRateLoader;
+import software.ulpgc.model.Currency;
+import software.ulpgc.model.ExchangeRate;
+import software.ulpgc.model.ExchangeRateLoader;
 
 public class FixerExchangeRateLoader implements ExchangeRateLoader {
     @Override

@@ -1,6 +1,6 @@
-package view;
+package software.ulpgc.view;
 
-import model.Money;
+import software.ulpgc.model.Money;
 
 public interface MoneyDisplay {
     void show(Money money);

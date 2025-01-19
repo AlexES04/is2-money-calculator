@@ -1,7 +1,7 @@
-package mocks;
+package software.ulpgc.mocks;
 
-import model.Money;
-import view.MoneyDisplay;
+import software.ulpgc.model.Money;
+import software.ulpgc.view.MoneyDisplay;
 
 
 public class MockMoneyDisplay implements MoneyDisplay {

@@ -1,4 +1,4 @@
-package model;
+package software.ulpgc.model;
 
 public record Currency(String code, String name) {
     @Override

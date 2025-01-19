@@ -1,15 +1,15 @@
-package fixers;
+package software.ulpgc.fixers;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import model.CurrencyLoader;
+import software.ulpgc.model.CurrencyLoader;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
-import model.Currency;
+import software.ulpgc.model.Currency;
 import java.util.List;
 import java.util.Map;
 

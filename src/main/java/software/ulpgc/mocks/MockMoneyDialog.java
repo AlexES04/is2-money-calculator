@@ -1,8 +1,8 @@
-package mocks;
+package software.ulpgc.mocks;
 
-import model.Currency;
-import model.Money;
-import view.MoneyDialog;
+import software.ulpgc.model.Currency;
+import software.ulpgc.model.Money;
+import software.ulpgc.view.MoneyDialog;
 
 import java.util.List;
 

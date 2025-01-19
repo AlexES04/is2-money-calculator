@@ -1,4 +1,4 @@
-package model;
+package software.ulpgc.model;
 
 public record Money(long amount, Currency currency) {
     @Override

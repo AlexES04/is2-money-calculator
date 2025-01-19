@@ -1,12 +1,12 @@
-package mocks;
+package software.ulpgc.mocks;
 
-import control.Command;
-import control.ExchangeMoneyCommand;
-import model.Currency;
-import model.ExchangeRateLoader;
-import view.CurrencyDialog;
-import view.MoneyDialog;
-import view.MoneyDisplay;
+import software.ulpgc.control.Command;
+import software.ulpgc.control.ExchangeMoneyCommand;
+import software.ulpgc.model.Currency;
+import software.ulpgc.model.ExchangeRateLoader;
+import software.ulpgc.view.CurrencyDialog;
+import software.ulpgc.view.MoneyDialog;
+import software.ulpgc.view.MoneyDisplay;
 
 import java.util.List;
 

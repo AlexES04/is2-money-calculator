@@ -1,6 +1,6 @@
-package view;
+package software.ulpgc.view;
 
-import model.Currency;
+import software.ulpgc.model.Currency;
 
 import javax.swing.*;
 import java.awt.*;

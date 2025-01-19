@@ -1,6 +1,8 @@
-import fixers.FixerCurrencyLoader;
-import model.Currency;
-import model.CurrencyLoader;
+package software.ulpgc;
+
+import software.ulpgc.fixers.FixerCurrencyLoader;
+import software.ulpgc.model.Currency;
+import software.ulpgc.model.CurrencyLoader;
 
 import java.util.List;
 

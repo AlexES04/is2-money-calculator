@@ -1,10 +1,10 @@
-package view;
+package software.ulpgc.view;
 
-import control.Command;
-import control.ExchangeMoneyCommand;
-import fixers.FixerCurrencyLoader;
-import mocks.MockExchangeRateLoader;
-import model.Currency;
+import software.ulpgc.control.Command;
+import software.ulpgc.control.ExchangeMoneyCommand;
+import software.ulpgc.fixers.FixerCurrencyLoader;
+import software.ulpgc.mocks.MockExchangeRateLoader;
+import software.ulpgc.model.Currency;
 
 import javax.swing.*;
 import java.awt.*;
