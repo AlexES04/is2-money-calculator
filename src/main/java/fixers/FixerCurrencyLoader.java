@@ -1,19 +1,21 @@
+package fixers;
+
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
+import model.CurrencyLoader;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.Currency;
+import model.Currency;
 import java.util.List;
 import java.util.Map;
 
 import static java.util.Collections.emptyList;
 
-public class FixerCurrencyLoader {
+public class FixerCurrencyLoader implements CurrencyLoader {
     @Override
     public List<Currency> load() {
         try {
