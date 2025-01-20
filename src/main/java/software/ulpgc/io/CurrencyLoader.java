@@ -1,4 +1,6 @@
-package software.ulpgc.model;
+package software.ulpgc.io;
+
+import software.ulpgc.model.Currency;
 
 import java.util.List;
 

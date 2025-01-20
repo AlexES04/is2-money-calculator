@@ -1,7 +1,7 @@
 package software.ulpgc.mocks;
 
 import software.ulpgc.model.Currency;
-import software.ulpgc.model.CurrencyLoader;
+import software.ulpgc.io.CurrencyLoader;
 
 import java.util.List;
 

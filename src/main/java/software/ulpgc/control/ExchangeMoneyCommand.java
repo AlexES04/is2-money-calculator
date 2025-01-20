@@ -2,7 +2,7 @@ package software.ulpgc.control;
 
 import software.ulpgc.model.Currency;
 import software.ulpgc.model.ExchangeRate;
-import software.ulpgc.model.ExchangeRateLoader;
+import software.ulpgc.io.ExchangeRateLoader;
 import software.ulpgc.model.Money;
 import software.ulpgc.view.CurrencyDialog;
 import software.ulpgc.view.MoneyDialog;

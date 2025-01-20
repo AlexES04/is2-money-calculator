@@ -3,7 +3,7 @@ package software.ulpgc.mocks;
 import software.ulpgc.control.Command;
 import software.ulpgc.control.ExchangeMoneyCommand;
 import software.ulpgc.model.Currency;
-import software.ulpgc.model.ExchangeRateLoader;
+import software.ulpgc.io.ExchangeRateLoader;
 import software.ulpgc.view.CurrencyDialog;
 import software.ulpgc.view.MoneyDialog;
 import software.ulpgc.view.MoneyDisplay;

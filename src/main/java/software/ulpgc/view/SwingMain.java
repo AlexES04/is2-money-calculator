@@ -2,8 +2,8 @@ package software.ulpgc.view;
 
 import software.ulpgc.control.Command;
 import software.ulpgc.control.ExchangeMoneyCommand;
-import software.ulpgc.fixers.FixerCurrencyLoader;
-import software.ulpgc.mocks.MockExchangeRateLoader;
+import software.ulpgc.io.fixers.FixerCurrencyLoader;
+import software.ulpgc.io.fixers.FixerExchangeRateLoader;
 import software.ulpgc.model.Currency;
 
 import javax.swing.*;
@@ -24,20 +24,16 @@ public class SwingMain extends JFrame {
         Command command = new ExchangeMoneyCommand(
                 main.moneyDialog().define(currencies),
                 main.currencyDialog().define(currencies),
-                new MockExchangeRateLoader(),
+                new FixerExchangeRateLoader(),
                 main.moneyDisplay());
         main.addCommand("exchange money", command);
         SwingUtilities.invokeLater(() -> main.setVisible(true));
     }
 
     public SwingMain() throws HeadlessException {
-        setTitle("Money Calculator");
-        setSize(800, 600);
-        setLocationRelativeTo(null);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLayout(new BorderLayout());
-
-        setLayout(new BorderLayout());
+        this.setTitle("Money Calculator");
+        this.setDefaultCloseOperation(EXIT_ON_CLOSE);
+        this.setLayout(new BorderLayout());
 
         JPanel centerPanel = new JPanel(new BorderLayout());
         centerPanel.add(createMoneyDisplay(), BorderLayout.CENTER);
@@ -48,10 +44,12 @@ public class SwingMain extends JFrame {
 
         add(topPanel, BorderLayout.NORTH);
         add(centerPanel, BorderLayout.CENTER);
-        add(createToolbar(), BorderLayout.SOUTH);
+        add(toolbar(), BorderLayout.SOUTH);
         setLookAndFeel();
 
         pack();
+        this.setSize(1100, 200);
+        this.setLocationRelativeTo(null);
     }
 
     private void setLookAndFeel() {
@@ -72,7 +70,7 @@ public class SwingMain extends JFrame {
     }
 
 
-    private Component createToolbar() {
+    private Component toolbar() {
         JButton button = new JButton("Calculate");
         button.addActionListener(e -> commands.get("exchange money").execute());
 

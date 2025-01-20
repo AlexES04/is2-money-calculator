@@ -1,9 +1,9 @@
-package software.ulpgc.fixers;
+package software.ulpgc.io.fixers;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import software.ulpgc.model.CurrencyLoader;
+import software.ulpgc.io.CurrencyLoader;
 
 import java.io.IOException;
 import java.io.InputStream;

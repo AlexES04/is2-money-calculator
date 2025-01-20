@@ -2,7 +2,7 @@ package software.ulpgc.mocks;
 
 import software.ulpgc.model.Currency;
 import software.ulpgc.model.ExchangeRate;
-import software.ulpgc.model.ExchangeRateLoader;
+import software.ulpgc.io.ExchangeRateLoader;
 
 import java.time.LocalDate;
 
